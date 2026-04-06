@@ -1,0 +1,1 @@
+NO EVIDENCE — No build step required. FastAPI runs via uvicorn directly. Frontend via vitest.
