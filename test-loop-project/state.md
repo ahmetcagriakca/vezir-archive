@@ -3,7 +3,7 @@
 **Updated:** 2026-04-12
 
 ## ACTIVE_TASK
-None — previous task completed.
+None — task verified complete.
 
 ## CURRENT_GOAL
 Await next task.
@@ -15,7 +15,7 @@ N/A
 N/A
 
 ## BLOCKERS
-- `.task_prompt` references missing `docs/` files (non-blocking for current task)
+None
 
 ## DONE_CRITERIA
 N/A
