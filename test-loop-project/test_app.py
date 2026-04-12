@@ -1,4 +1,17 @@
-from app import multiply, greet
+from app import add, hello, multiply, subtract, greet
+
+def test_hello():
+    assert hello() == "Hello World"
+
+def test_add():
+    assert add(1, 2) == 3
+    assert add(0, 0) == 0
+    assert add(-1, 1) == 0
+
+def test_subtract():
+    assert subtract(5, 2) == 3
+    assert subtract(0, 0) == 0
+    assert subtract(2, 5) == -3
 
 def test_multiply():
     assert multiply(3, 4) == 12
