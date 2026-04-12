@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet
+from app import add, hello, multiply, subtract, greet, hello_world
 
 def test_hello():
     assert hello() == "Hello World"
@@ -21,3 +21,6 @@ def test_multiply():
 def test_greet():
     assert greet("World") == "Hello, World!"
     assert greet("Ahmet") == "Hello, Ahmet!"
+
+def test_hello_world():
+    assert hello_world() == "Hello, World!"

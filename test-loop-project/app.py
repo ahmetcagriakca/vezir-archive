@@ -15,3 +15,6 @@ def greet(name):
 
 def divide(a, b):
     return a / b
+
+def hello_world():
+    return "Hello, World!"
