@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet, hello_world, power
+from app import add, hello, multiply, subtract, greet, hello_world, power, is_even
 
 def test_hello():
     assert hello() == "Hello World"
@@ -28,3 +28,7 @@ def test_hello_world():
 def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1
+
+def test_is_even():
+    assert is_even(4) == True
+    assert is_even(7) == False
