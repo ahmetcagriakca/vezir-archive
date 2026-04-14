@@ -66,3 +66,6 @@ def double(n):
 
 def triple(n):
     return 3 * n
+
+def square_root(n):
+    return int(n ** 0.5)
