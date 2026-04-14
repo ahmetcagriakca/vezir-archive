@@ -57,3 +57,6 @@ def is_prime(n):
 
 def reverse_string(s):
     return s[::-1]
+
+def square(n):
+    return n * n

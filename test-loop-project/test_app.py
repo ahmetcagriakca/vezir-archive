@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd, max_of_three, is_prime, reverse_string
+from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd, max_of_three, is_prime, reverse_string, square
 
 def test_hello():
     assert hello() == "Hello World"
@@ -52,3 +52,7 @@ def test_is_prime():
 def test_reverse_string():
     assert reverse_string("hello") == "olleh"
     assert reverse_string("") == ""
+
+def test_square():
+    assert square(5) == 25
+    assert square(0) == 0
