@@ -60,3 +60,6 @@ def reverse_string(s):
 
 def square(n):
     return n * n
+
+def double(n):
+    return 2 * n
