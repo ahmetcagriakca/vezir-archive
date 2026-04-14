@@ -18,3 +18,6 @@ def divide(a, b):
 
 def hello_world():
     return "Hello, World!"
+
+def power(a, b):
+    return a ** b
