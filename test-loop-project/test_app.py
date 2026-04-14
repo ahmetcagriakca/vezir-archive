@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd, max_of_three, is_prime, reverse_string, square, double
+from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd, max_of_three, is_prime, reverse_string, square, double, triple
 
 def test_hello():
     assert hello() == "Hello World"
@@ -60,3 +60,7 @@ def test_square():
 def test_double():
     assert double(3) == 6
     assert double(-2) == -4
+
+def test_triple():
+    assert triple(4) == 12
+    assert triple(0) == 0

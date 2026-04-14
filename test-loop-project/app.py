@@ -63,3 +63,6 @@ def square(n):
 
 def double(n):
     return 2 * n
+
+def triple(n):
+    return 3 * n
