@@ -37,3 +37,6 @@ def gcd(a, b):
     while b:
         a, b = b, a % b
     return a
+
+def max_of_three(a, b, c):
+    return max(a, b, c)

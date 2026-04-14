@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd
+from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd, max_of_three
 
 def test_hello():
     assert hello() == "Hello World"
@@ -40,3 +40,7 @@ def test_factorial():
 def test_gcd():
     assert gcd(12, 18) == 6
     assert gcd(7, 13) == 1
+
+def test_max_of_three():
+    assert max_of_three(3, 7, 5) == 7
+    assert max_of_three(-1, -5, -3) == -1
