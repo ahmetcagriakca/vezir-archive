@@ -1,4 +1,4 @@
-from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial
+from app import add, hello, multiply, subtract, greet, hello_world, power, is_even, factorial, gcd
 
 def test_hello():
     assert hello() == "Hello World"
@@ -36,3 +36,7 @@ def test_is_even():
 def test_factorial():
     assert factorial(5) == 120
     assert factorial(0) == 1
+
+def test_gcd():
+    assert gcd(12, 18) == 6
+    assert gcd(7, 13) == 1
