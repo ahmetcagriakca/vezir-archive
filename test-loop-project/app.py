@@ -54,3 +54,6 @@ def is_prime(n):
             return False
         i += 2
     return True
+
+def reverse_string(s):
+    return s[::-1]
